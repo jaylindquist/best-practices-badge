@@ -99,7 +99,7 @@ group :development, :test do
   gem 'bundler-audit', '0.9.1'
   gem 'dotenv-rails', '2.7.6'
   gem 'eslintrb', '2.1.0'
-  gem 'json', '2.6.1'
+  gem 'json', '2.6.2'
   gem 'license_finder', '7.0.1'
   gem 'mdl', '0.11.0'
   # NOTE: If you update pronto you may need to update other pronto-* gems
@@ -149,7 +149,7 @@ group :test do
   gem 'rails-controller-testing', '1.0.5' # for `assigns` and `assert_template`
   gem 'selenium-webdriver', '3.142.7', require: false
   # We don't list "simplecov"; code depends on it & brings it in
-  gem 'webdrivers', '4.6.1', require: false
+  gem 'webdrivers', '4.7.0', require: false
   gem 'webmock', '3.14.0', require: false
 end
 
